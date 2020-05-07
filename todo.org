@@ -1,0 +1,5 @@
+* TODO figure out how to pin local elpa-mirror
+The .lock logic and d12frosted's git based mirror seem to have some
+conflicts resulting in signature errors
+* TODO move elpa/26.3/develop out of spacemacs
+My preference is that this directory is read only
