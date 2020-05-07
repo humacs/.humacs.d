@@ -1,0 +1,8 @@
+[submodule "spacemacs"]
+	path = spacemacs
+	branch = develop
+	url = https://github.com/humacs/spacemacs
+[submodule ".spacemacs.d"]
+	path = .spacemacs.d
+	branch = develop
+	url = https://github.com/humacs/.spacemacs.d
