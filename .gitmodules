@@ -6,3 +6,7 @@
 	path = .spacemacs.d
 	branch = develop
 	url = https://github.com/humacs/.spacemacs.d
+[submodule "elpa-mirror"]
+	path = elpa-mirror
+	branch = develop
+	url = https://github.com/humacs/elpa-mirror
