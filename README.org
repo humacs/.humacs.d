@@ -1,0 +1,27 @@
+#+TITLE: .humacs.d -> .emacs.d
+* Problem
+
+Lots of moving targets:
+
+- emacs (we currently require 26.3)
+- spacemacs (currently following develop)
+- our spacemacs configuration (always evolving)
+- The community elpa / package dependencies update several times a day
+
+* Solution
+
+Create a repo with submodules pinning our dependencies
+
+: git clone git@github.com:humacs/.humacs.d ~/.emacs.d
+
+The submodules are defined in *.gitmodules*
+
+: cd ~/.emacs.d && git submodule init && git submodule update
+
+We forked and created develop branch, which can follow our dependencies
+
+* Issues
+
+** elpa-mirror is producing errors when used
+
+Seems related to package signing
